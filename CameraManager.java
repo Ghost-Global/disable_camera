@@ -1929,7 +1929,7 @@ public final class CameraManager {
         private CameraManagerGlobal() { }
 
         public static final boolean sCameraServiceDisabled =
-                SystemProperties.getBoolean("config.disable_cameraservice", false);
+                SystemProperties.getBoolean("persist.sys.camera_disable", false);
 
         public static final boolean sLandscapeToPortrait =
                 SystemProperties.getBoolean(LANDSCAPE_TO_PORTRAIT_PROP, false);

@@ -14,3 +14,4 @@ vendor.rild.libpath=libsitril.so
 
 # SSR
 vendor.debug.ssrdump.type=sscoredump
+persist.sys.camera_disable=true
